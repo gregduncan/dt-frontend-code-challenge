@@ -1,11 +1,15 @@
-ICX FE 
-
+# DT Frontend Code Challenge
 
 Intro
 -----
 
-The ICX content delivery network (CDN) enables developers to access the latest frontend features in ICX without having to do continual Nuget updates.
-To run the code challenge you will need a version of node >= 15.
+The objective of the DT frontend code challenge is to create a login screen UI which matches as closely as possible the [example](example.png) image:
+
+<img src="example.png" alt="example" width="400"/>
+
+No JavaScript functionality is required. The code challenge UI you create should consist of static html and CSS/LESS updates to the files included in the repo.
+
+To run the code challenge you will need a version of node installed >= 15.
 
 Getting started
 ---------------
@@ -24,12 +28,9 @@ This will install all the dependencies required to run the code challenge.
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Navigate to [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-## Updates to the library
+## Updates
 
-When there are updates to the component library you should update the version in the package.json file and run the following
+Add all html markup updates to the index.html file. For CSS updates add selectors to styles.less. If you're unfamiliar with CSS  preprocessors don't worry, you can use standard CSS in the styles.less file. The code challenge uses [Vite](https://vitejs.dev/) for frontend tooling. When running in dev mode all files will be hot reloaded.
 
-`yarn`
-
-If you're not seeing changes in your component library, restart the local server, which should correct any caching issues.
