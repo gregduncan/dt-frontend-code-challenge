@@ -15,6 +15,8 @@ Getting started
 
 ### Initial setup
 
+Fork this repo then run the following commands in a terminal at the repo root:
+
 ```bash
 npm install
 ```
