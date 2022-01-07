@@ -6,7 +6,7 @@ The objective of the DT frontend code challenge is to create a login screen UI w
 
 <img src="example.png" alt="example" width="400"/>
 
-No JavaScript functionality is required. The code challenge UI you create should consist of static html and CSS/LESS updates to the files included in the repo.
+The code challenge UI you create should consist of static html and CSS/LESS updates to the files included in the repo.
 
 To run the code challenge you will need a version of node installed >= 15.
 
