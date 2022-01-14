@@ -2,7 +2,7 @@
 
 ### Intro
 
-The objective of the DT frontend code challenge is to create a login screen UI which matches as closely as possible the [example](example.png) image:
+The objective of the DT frontend code challenge is to create a UI which matches as closely as possible the [example](example.png) image:
 
 <img src="example.png" alt="example" width="400"/>
 
